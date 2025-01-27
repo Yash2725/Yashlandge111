@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    background-color: rgb(247,169,1);
+}
+.Zhaler{
+    width: 260px;
+    margin-bottom: -150px;
+}
+ section ,.hero{
+     
+    background-color: rgb(247,169,1);
+    background-image: url('images/orange-backdrop\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.paragraph-audio{
+    margin-left: 250px;
+}
+.hero p{
+    font-size: 42px;
+    font-weight: 550;
+    font-family: salsa;
+    max-width: 560px;
+     
+}
+
+.music{
+    background-color: rgb(251,216,164);
+   width: 500px;
+   border-radius: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: salsa;
+
+}
+audio::-webkit-media-controls-panel {
+    background-color: rgb(251,216,164);
+      
+     }
+
+.ganesha{
+    background-color: rgb(249, 149, 1);
+    background-image: none;
+    padding-top: 1rem;
+    align-items: center;
+     }
+
+.lakshmi-ganesha-img{
+    max-width:850px;
+     
+    display: block;
+    margin-inline: auto;
+}
+ .horizonatl{
+    display: flex;
+    align-items: center;
+     
+    margin-inline: auto;
+    width: 1100px;
+    padding-bottom: 1rem;
+     
+
+ }
+
+.circle{
+    height: 10px;
+    width: 10px;
+    gap: 12px;
+    background-color: rgb(251,216,164);
+    border-radius: 50%;
+    display: block;
+    margin-inline: auto;
+    
+
+    
+
+}
+.horizontal-right , .horizontal-left{
+    height: 3px;
+    width: 468px;
+    background-color: rgb(251,216,164);
+    
+}
+
+.ganesha h1{
+    font-family:style script ;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-girl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-card{
+    max-width: 600px;
+    max-height: 500px;
+    background-color: white;
+    border: none;
+    border-radius: 22px;
+    font-family: salsa;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 56px;
+    padding: 60px;  
+     
+
+}
+
+.little-girl{
+    margin-left: -120px;
+    max-width: 320px;
+}
+
+.both-ganeh-lakshmi{
+    max-width: 1300px;
+    display:  block;
+    margin: auto;
+}
+ 
+
+/* @media (width < 810px){
+    .secound-deepak{
+        display: none;
+    }
+} */
+
+@media (max-width:840px){
+    .first-deepak{
+        display: block;
+        margin-left: auto;
+    }
+
+    .secound-deepak{
+        display: none;
+    }
+    .paragraph-audio{
+        margin-left: 50px;
+    }
+
+    .Zhaler{
+         
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width:555px){
+    .line-text{
+        display: none;
+    }
+    .hero p{
+        font-size: 32px;
+        font-weight: 300;
+    }
+    .music{
+        width: max-content;
+        display: flex;
+        margin: auto;
+        
+    }
+    .paragraph-audio{
+        margin-left: 10px;
+    }
+}
+
+  
